@@ -1,1 +1,6 @@
-String.prototype.htmlSymDecode=function(){const a=document.createElement("div");return a.innerHTML=this,a.innerText};
+String.prototype.htmlSymDecode = function() {
+  const a = document.createElement("div");
+  return a.innerHTML = this,
+  a.innerText
+}
+;
